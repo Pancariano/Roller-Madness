@@ -29,6 +29,7 @@ public class Block : MonoBehaviour
             ScoreManager scoreManager = FindObjectOfType<ScoreManager>();
             scoreManager.score--;
             isCollided =true;
+
         }  
     }
 }
