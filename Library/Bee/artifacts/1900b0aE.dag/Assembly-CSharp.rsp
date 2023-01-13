@@ -355,6 +355,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Block.cs"
 "Assets/Scripts/CameraFollow.cs"
+"Assets/Scripts/Enemy.cs"
 "Assets/Scripts/Move.cs"
 "Assets/Scripts/Pickable.cs"
 "Assets/Scripts/RotateScript.cs"

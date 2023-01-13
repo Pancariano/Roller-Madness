@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GetComponent<Transform>();
         
     }
 
@@ -15,5 +16,6 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         transform.LookAt(target);
+        print(target);
     }
 }
