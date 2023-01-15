@@ -110,4 +110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9beae7020319f094faa7c44c9d2d5727, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyFollowSpeed: 1
   target: {fileID: 0}
+  Stop: 2

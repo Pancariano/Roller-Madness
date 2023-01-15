@@ -4,18 +4,30 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] Transform target; 
+    [SerializeField] private int enemyFollowSpeed;
+    Transform target;
+    [SerializeField] private float stopDistance;
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Transform>();
+        target = GameObject.FindWithTag("Player").GetComponent<Transform>();
         
     }
 
     // Update is called once per frame
     void Update()
     {
+        MoveEnemy();
+    }
+
+    private void MoveEnemy()
+    {
         transform.LookAt(target);
-        print(target);
+
+        float distance = Vector3.Distance(transform.position, target.position);
+
+        if(distance > stopDistance)
+            transform.position += transform.forward * enemyFollowSpeed * Time.deltaTime;
+        
     }
 }
