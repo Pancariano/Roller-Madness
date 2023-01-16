@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 using UnityEngine.Animations;
 
 public class CameraFollow : MonoBehaviour
 {
     /* Topun pozisyonunu bulmak için Transform değişkeni oluşturuyoruz.
     inspector ekranından topa referans veriyoruz. */
-    [SerializeField] private Transform Target;
+    [SerializeField] private Transform target;
 
     //Topla kamera arasındaki mesafeyi tanımlayacağımız bir Vector 3 değişkeni oluşturuyoruz.
     private Vector3 offSet;
@@ -17,8 +18,7 @@ public class CameraFollow : MonoBehaviour
 
     void Start()
     {
-        offSet = CalculateOffSet(Target); //aradaki değer = kameranın konumu - player'ın konumu
-        
+        offSet = CalculateOffSet(target); //aradaki değer = kameranın konumu - player'ın konumu
     }
     void FixedUpdate() // Kamera kasmasını düzeltmek için fixed update kullandık
     {
@@ -27,19 +27,20 @@ public class CameraFollow : MonoBehaviour
         
     private void MoveTheCamera()
     {
+        if (target != null)
+        {
             //Kameranın hareket edeceği konumu tanımlıyoruz
             //hareket edeceği konum = kameranın o anki konumu + oyuncuyla arasındaki mesafe
-            Vector3 targetToMove = Target.position + offSet;
+            Vector3 targetToMove = target.position + offSet;
             //Kamerayı hareket ettir = Mevcut konumundan, hareket etmesi gereken konuma, hız değişkeni * Time.deltaTime
             transform.position = Vector3.Lerp(transform.position, targetToMove, followSpeed * Time.deltaTime);
             //Kameranın topa bakmasını sağlamak için
-            transform.LookAt(Target.transform.position);
-        
+            transform.LookAt(target.transform.position);
+        }
     }
 
     private Vector3 CalculateOffSet(Transform newTarget)
     {
         return transform.position - newTarget.position;
     }
-
 }

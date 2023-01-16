@@ -5,6 +5,7 @@ public class Move : MonoBehaviour
     private Vector3 movement;
     [SerializeField] float speed;
     private Rigidbody rigidbody;
+
     void Start()
     {
         //inspector ekranýndan seçmek yerine kod kullanarak rigidbody compeonentini bulduk
@@ -13,9 +14,7 @@ public class Move : MonoBehaviour
 
     void Update()
     {
-
         MoveThePlayer();
-
     }
 
     private void MoveThePlayer()
