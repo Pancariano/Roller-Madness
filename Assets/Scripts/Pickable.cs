@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,12 +17,22 @@ public class Pickable : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other) // fiziksel temas yok isTrigger açık
     {
-        //sahnedeki ScoreManager component�ine sahip objeyi bulur ve bu objenin ScoreManager component�ini d�nd�r�r.
+        //sahnedeki ScoreManager component’ine sahip objeyi bulur ve bu objenin ScoreManager component’ini döndürür.
         ScoreManager scoreManager = FindObjectOfType<ScoreManager>();
         scoreManager.score += scoreAmount;
         Destroy(gameObject);
     }
 
+    private void OnCollisionEnter(Collision collision) // fiziksel temas var isTrigger kapalı
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            //sahnedeki ScoreManager component’ine sahip objeyi bulur ve bu objenin ScoreManager component’ini döndürür.
+            ScoreManager scoreManager = FindObjectOfType<ScoreManager>();
+            scoreManager.score += scoreAmount;
+            Destroy(gameObject);
+        }
+    }
 }
