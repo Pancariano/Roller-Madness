@@ -22,7 +22,7 @@ public class TimeManager : MonoBehaviour
             gameFinished = true;
         }
 
-        if (gameOver == true) ;
+        if (gameOver == true)
         {
             print("Restart");
         }

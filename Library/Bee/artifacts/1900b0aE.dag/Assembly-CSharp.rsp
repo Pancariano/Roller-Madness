@@ -351,6 +351,7 @@
 "Assets/Scripts/Pickable.cs"
 "Assets/Scripts/RotateScript.cs"
 "Assets/Scripts/ScoreManager.cs"
+"Assets/Scripts/SpawnManager.cs"
 "Assets/Scripts/TimeManager.cs"
 -langversion:9.0
 
