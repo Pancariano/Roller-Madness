@@ -6,12 +6,13 @@ using UnityEngine.UI;
 
 public class TimeManager : MonoBehaviour
 {
+    [SerializeField] private Text timeText;
     [SerializeField] private float levelFinishTime = 3f;
     public bool gameFinished = false;
     public bool gameOver = false;
 
-    [SerializeField] private Text timeText;
-
+    [SerializeField] private GameObject winScreen;
+    [SerializeField] private GameObject gameOverScreen;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,13 +27,16 @@ public class TimeManager : MonoBehaviour
 
         if (Time.time >= levelFinishTime && gameOver == false)
         {
-            print("Next Level");
+            
             gameFinished = true;
+            winScreen.SetActive(true);
+            gameOverScreen.SetActive(false);
         }
 
         if (gameOver == true)
         {
-            print("Restart");
+            gameOverScreen.SetActive(true);
+            winScreen.SetActive(false);
         }
     }
 
