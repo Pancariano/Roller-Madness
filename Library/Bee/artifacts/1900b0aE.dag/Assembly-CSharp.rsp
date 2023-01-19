@@ -348,6 +348,7 @@
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/GroundBorder.cs"
+"Assets/Scripts/LevelManager.cs"
 "Assets/Scripts/Move.cs"
 "Assets/Scripts/Pickable.cs"
 "Assets/Scripts/RotateScript.cs"
