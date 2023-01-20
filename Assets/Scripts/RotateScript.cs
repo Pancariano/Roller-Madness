@@ -5,12 +5,7 @@ using UnityEngine;
 public class RotateScript : MonoBehaviour
 {
     [SerializeField] private Vector3 angle;
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
+   
     void Update()
     {
         transform.Rotate(angle, Space.World);

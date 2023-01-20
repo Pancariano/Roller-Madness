@@ -8,18 +8,7 @@ public class LevelManager : MonoBehaviour
 {
     [SerializeField] private GameObject restart;
     [SerializeField] private GameObject nextLevel;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

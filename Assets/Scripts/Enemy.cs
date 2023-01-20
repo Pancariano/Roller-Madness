@@ -9,14 +9,12 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float stopDistance;
     private TimeManager timeManager;
 
-    // Start is called before the first frame update
     void Start()
     {
         target = GameObject.FindWithTag("Player").GetComponent<Transform>();
         timeManager = FindObjectOfType<TimeManager>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (timeManager.gameOver == false && timeManager.gameFinished == false)

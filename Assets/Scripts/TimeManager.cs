@@ -13,13 +13,7 @@ public class TimeManager : MonoBehaviour
     [SerializeField] private GameObject winScreen;
     [SerializeField] private GameObject gameOverScreen;
     [SerializeField] private List<GameObject> destroyAfterGame;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if (gameOver == false && gameFinished == false)
@@ -60,7 +54,7 @@ public class TimeManager : MonoBehaviour
         destroyAfterGame.AddRange(GameObject.FindGameObjectsWithTag(tag));
     }
 
-private void UpdateTheTimer()
+    private void UpdateTheTimer()
     {
         timeText.text = "Time " + (int)Time.timeSinceLevelLoad;
     }

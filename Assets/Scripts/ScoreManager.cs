@@ -14,7 +14,6 @@ public class ScoreManager : MonoBehaviour
         timeManager = FindObjectOfType<TimeManager>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (timeManager.gameOver == false && timeManager.gameFinished == false)
@@ -22,8 +21,6 @@ public class ScoreManager : MonoBehaviour
             UpdateTheScore();
             print(score);
         }
-            
-
     }
 
     private void UpdateTheScore()
