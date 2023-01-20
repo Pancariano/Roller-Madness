@@ -22,27 +22,42 @@ public class TimeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateTheTimer();
+        if (gameOver == false && gameFinished == false)
+        {
+            UpdateTheTimer();
+        }
+
        
 
-        if (Time.time >= levelFinishTime && gameOver == false)
+        if (Time.timeSinceLevelLoad >= levelFinishTime && gameOver == false)
         {
-            
             gameFinished = true;
             winScreen.SetActive(true);
             gameOverScreen.SetActive(false);
+
+            //payer tagine sayip olan tüm objeleri yok et
+            foreach (GameObject allObjects in GameObject.FindGameObjectsWithTag("Objects"))
+            {
+                Destroy(allObjects);
+            }
         }
 
         if (gameOver == true)
         {
             gameOverScreen.SetActive(true);
             winScreen.SetActive(false);
+
+            //payer tagine sayip olan tüm objeleri yok et
+            foreach (GameObject allObjects in GameObject.FindGameObjectsWithTag("Objects"))
+            {
+                Destroy(allObjects);
+            }
         }
     }
 
     private void UpdateTheTimer()
     {
-        timeText.text = "Time " + (int)Time.time;
+        timeText.text = "Time " + (int)Time.timeSinceLevelLoad;
     }
 
 }

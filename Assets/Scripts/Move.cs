@@ -5,16 +5,26 @@ public class Move : MonoBehaviour
     private Vector3 movement;
     [SerializeField] float speed;
     private Rigidbody rigidbody;
+    private TimeManager timeManager;
 
     void Start()
     {
         //inspector ekranýndan seçmek yerine kod kullanarak rigidbody compeonentini bulduk
         rigidbody= GetComponent<Rigidbody>();
+        timeManager = FindObjectOfType<TimeManager>();
     }
 
     void Update()
     {
-        MoveThePlayer();
+        if (timeManager.gameOver == false && timeManager.gameFinished == false)
+        {
+            MoveThePlayer();
+        }
+
+        if (timeManager.gameOver == true || timeManager.gameFinished == true)
+        {
+            rigidbody.isKinematic = true;
+        }
     }
 
     private void MoveThePlayer()

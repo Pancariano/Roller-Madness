@@ -9,18 +9,19 @@ public class SpawnManager : MonoBehaviour
     private float nextSpawnTime = 0;
     [SerializeField] private Transform[] spawnPositions;
     [SerializeField] private GameObject[] objectToSpawn;
-
+    private TimeManager timeManager;
     void Start()
     {
-        
+        timeManager = FindObjectOfType<TimeManager>();
     }
     
     void Update()
     {
-        if (Time.time > nextSpawnTime)
+        if (Time.timeSinceLevelLoad > nextSpawnTime && timeManager.gameOver == false && timeManager.gameFinished == false)
+            
         {
-            nextSpawnTime += spawnRate;
-            SpawnObject(objectToSpawn[RandomObjectNumber()], spawnPositions[RandomSpawnNumber()]);
+                nextSpawnTime += spawnRate;
+                SpawnObject(objectToSpawn[RandomObjectNumber()], spawnPositions[RandomSpawnNumber()]);
         }
     }
 

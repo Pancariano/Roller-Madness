@@ -7,18 +7,22 @@ public class ScoreManager : MonoBehaviour
 {
     public int score = 0;
     [SerializeField] private Text scoreText;
-        
+    private TimeManager timeManager;
 
     void Start()
     {
-        
+        timeManager = FindObjectOfType<TimeManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        UpdateTheScore();
-        print(score);
+        if (timeManager.gameOver == false && timeManager.gameFinished == false)
+        {
+            UpdateTheScore();
+            print(score);
+        }
+            
 
     }
 

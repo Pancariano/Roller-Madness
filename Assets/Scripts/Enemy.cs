@@ -7,17 +7,20 @@ public class Enemy : MonoBehaviour
     Transform target;
     [SerializeField] private int enemyFollowSpeed;
     [SerializeField] private float stopDistance;
+    private TimeManager timeManager;
 
     // Start is called before the first frame update
     void Start()
     {
         target = GameObject.FindWithTag("Player").GetComponent<Transform>();
+        timeManager = FindObjectOfType<TimeManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        MoveTheEnemy();
+        if (timeManager.gameOver == false && timeManager.gameFinished == false)
+            MoveTheEnemy();
     }
 
     private void MoveTheEnemy()
@@ -32,7 +35,6 @@ public class Enemy : MonoBehaviour
                 transform.position += transform.forward * enemyFollowSpeed * Time.deltaTime;
             }
         }
-        
     }
 
     private void OnCollisionEnter(Collision collision) // fiziksel temas var isTrigger kapalı
