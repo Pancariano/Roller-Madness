@@ -835,7 +835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeText: {fileID: 1030589269}
-  levelFinishTime: 30
+  levelFinishTime: 3
   gameFinished: 0
   gameOver: 0
   winScreen: {fileID: 211574784}
