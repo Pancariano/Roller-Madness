@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int enemyFollowSpeed;
     [SerializeField] private float stopDistance;
     private TimeManager timeManager;
+    [SerializeField] private GameObject deadEffect;
 
     void Start()
     {
@@ -43,5 +44,10 @@ public class Enemy : MonoBehaviour
             TimeManager timeManager = FindObjectOfType<TimeManager>();
             timeManager.gameOver = true;
         }
+    }
+
+    private void OnDisable()
+    {
+        Instantiate(deadEffect, transform.position, transform.rotation);
     }
 }

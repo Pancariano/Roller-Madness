@@ -6,6 +6,7 @@ public class Move : MonoBehaviour
     [SerializeField] float speed;
     private Rigidbody rigidbody;
     private TimeManager timeManager;
+    [SerializeField] private GameObject deadEffect;
 
     void Start()
     {
@@ -34,5 +35,10 @@ public class Move : MonoBehaviour
         movement = new Vector3(x, 0f, z);
         //transform.position += movement;
         rigidbody.AddForce(movement);
+    }
+
+    private void OnDisable()
+    {
+        Instantiate(deadEffect, transform.position, transform.rotation);
     }
 }

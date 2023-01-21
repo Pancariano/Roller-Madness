@@ -1,0 +1,502 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1674321770943189, "dur": 4541843, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674321770943566, "dur": 15634, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674321770959201, "dur": 47685, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674321771006928, "dur": 3824531, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674321774831461, "dur": 643348, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674321775474810, "dur": 10221, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674321775485699, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1674321773712416, "dur": 1099617, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674321773713606, "dur": 59040, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674321774791829, "dur": 6298, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674321774798131, "dur": 13887, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674321774799019, "dur": 11403, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674321774818216, "dur": 1527, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674321774817004, "dur": 2772, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674321775485855, "dur": 292, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1674321774880486, "dur":2447, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321774882945, "dur":66, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1674321774883022, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1674321774883042, "dur":216, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1674321774883291, "dur":852, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321774884143, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321775457989, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321775457995, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321775458008, "dur":167, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321775458175, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321775458183, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321775458186, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321775458194, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321775458196, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321775458204, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321775458431, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321775458442, "dur":1808, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1674321774883748, "dur":405, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321774884156, "dur":6516, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321774890683, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674321774890690, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321774892107, "dur":650, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674321774892762, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674321774892822, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321774893120, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674321774896360, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1674321774896485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321774898922, "dur":21017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1674321774919997, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1674321774920124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321774920132, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1674321774922405, "dur":18817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321774941226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321774941584, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321774943058, "dur":13657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness.exe" }}
+,{ "pid":12345, "tid":1, "ts":1674321774956719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321774956725, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness.exe" }}
+,{ "pid":12345, "tid":1, "ts":1674321774958246, "dur":12519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321774970768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321774970835, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321774973171, "dur":9630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321774982804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321774982813, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321774984746, "dur":12076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321774996826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321774996834, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321774998297, "dur":9240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775007577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775007586, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775008873, "dur":7953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775016831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775016838, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775018231, "dur":7188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775025442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775025449, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775026589, "dur":10885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775037478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775037486, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775039845, "dur":7983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775047833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775047841, "dur":3314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775051204, "dur":12118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775063325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775063333, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775065130, "dur":9581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775074715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775074723, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775076277, "dur":31055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775107335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775107343, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775109354, "dur":8427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775117784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775117792, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775119236, "dur":8547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775127787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775127795, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775129024, "dur":8295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775137323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775137331, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775138810, "dur":18131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775156944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775156951, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775158856, "dur":6633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775165493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775165501, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775166902, "dur":8780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775175685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775175693, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775177112, "dur":8251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775185366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775185375, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775187372, "dur":7444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775194820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775194829, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775196786, "dur":9273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775206063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775206072, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775207817, "dur":144573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775352394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775352403, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775354369, "dur":7505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775361878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775361886, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775363412, "dur":6378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775369794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775369802, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775371373, "dur":12912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775384290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775384322, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775385665, "dur":11670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775397338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775397346, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775398534, "dur":12957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775411495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775411504, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775412966, "dur":13687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775426656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775426664, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775428063, "dur":1788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775429855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775429863, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674321775431411, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1674321775431549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775432068, "dur":5198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1674321775437310, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1674321775437438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775437443, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1674321775439474, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674321775439517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775439523, "dur":3251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674321775442820, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674321775442868, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775442873, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674321775444847, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1674321775444889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775444894, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1674321775446033, "dur":2859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1674321775448895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674321775448902, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1674321775450194, "dur":7593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321774883795, "dur":389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321774884184, "dur":6494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321774890684, "dur":8757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1674321774899445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321774899463, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1674321774900742, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1674321774900845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321774900851, "dur":17390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1674321774918299, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1674321774918424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321774918501, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1674321774920185, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1674321774920286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321774920292, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1674321774922198, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1674321774922559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321774922567, "dur":3021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1674321774925641, "dur":113549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775039193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775039200, "dur":18627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775057878, "dur":45732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775103614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775103622, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775104945, "dur":8974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775113923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775113931, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775115604, "dur":7184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775122792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775122799, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775124481, "dur":8627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775133112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775133121, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775134814, "dur":7014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775141832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775141840, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775143382, "dur":6803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775150190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775150198, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775151373, "dur":20546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775171923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775171931, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775174818, "dur":10544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775185366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775185375, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775187375, "dur":7477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775194855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775194861, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775196985, "dur":12496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775209485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775209493, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775211038, "dur":7666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775218708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775218717, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775220792, "dur":12454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775233249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775233256, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775234820, "dur":11236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775246060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775246069, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775247370, "dur":7460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775254833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775254841, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775256384, "dur":6914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775263301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775263310, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775264479, "dur":11169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775275652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775275661, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775276942, "dur":9413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775286358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775286366, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775287670, "dur":5436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775293110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775293118, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775294297, "dur":14930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775309231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775309268, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775311064, "dur":9680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775320748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775320756, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775321902, "dur":6443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775328349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775328357, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775329740, "dur":9339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775339083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775339091, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775340375, "dur":8213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775348592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775348600, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775349863, "dur":44840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775394707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775394715, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775396373, "dur":17459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775413836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775413844, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775415768, "dur":36322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775452093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674321775452101, "dur":5592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674321775457739, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1674321775457741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774883961, "dur":232, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774884193, "dur":6484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774890684, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1674321774890843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774894227, "dur":6196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1674321774900583, "dur":6480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1674321774907066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774907073, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1674321774908216, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1674321774908328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774908392, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1674321774909975, "dur":7271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1674321774917250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774917259, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1674321774918692, "dur":7095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1674321774925814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774925822, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1674321774927254, "dur":20156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1674321774947413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774947421, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1674321774949418, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1674321774949530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774949877, "dur":12512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1674321774962449, "dur":7156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321774969608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774970742, "dur":2548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321774973352, "dur":9448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321774982804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774982813, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321774984823, "dur":12003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321774996829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321774996835, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321774998271, "dur":7681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775005956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775005964, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775008432, "dur":14716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775023152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775023160, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775025178, "dur":7891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775033071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775033078, "dur":2210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775035336, "dur":18079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775053419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775053427, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775054668, "dur":113718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775168390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775168398, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775171011, "dur":8544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775179560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775179568, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775181018, "dur":6772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775187793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775187800, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775189447, "dur":10438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775199889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775199897, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775201360, "dur":13362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775214726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775214735, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775216144, "dur":8370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775224518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775224526, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775225693, "dur":7480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775233176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775233184, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775234777, "dur":12208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775246988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775246996, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775248470, "dur":19925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775268398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775268406, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775269934, "dur":7145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775277082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775277089, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775278322, "dur":6880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775285206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775285215, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775286424, "dur":22844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775309271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775309277, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775311079, "dur":8504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775319587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775319595, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775320923, "dur":9359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775330286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775330294, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775331501, "dur":30479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775361983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775362009, "dur":3166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775365221, "dur":8166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775373391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775373399, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775374687, "dur":25939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775400630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775400638, "dur":8122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775408806, "dur":25056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775433865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775433871, "dur":2716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674321775436638, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1674321775436682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775436687, "dur":7474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1674321775444208, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1674321775444257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775444263, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1674321775445692, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1674321775445738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674321775445743, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1674321775447027, "dur":10985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321774883997, "dur":207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321774884204, "dur":6471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321774890684, "dur":10015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1674321774900702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321774901021, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1674321774902071, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1674321774902184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321774902981, "dur":3703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1674321774906741, "dur":6015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1674321774912760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321774912768, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1674321774913889, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1674321774914015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321774914022, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1674321774915584, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1674321774915695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321774916650, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1674321774917914, "dur":5274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1674321774923191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321774923200, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1674321774925280, "dur":76563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775001847, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775001945, "dur":4755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775006748, "dur":7722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775014474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775014483, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775015797, "dur":7400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775023200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775023206, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775025348, "dur":7606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775032958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775032966, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775035322, "dur":7456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775042783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775042791, "dur":6724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775049715, "dur":11015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775060734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775060742, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775062006, "dur":7058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775069067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775069075, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775070423, "dur":8641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775079067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775079076, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775080400, "dur":12003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775092407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775092415, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775093671, "dur":8781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775102457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775102465, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775103868, "dur":16749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775120621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775120629, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775121906, "dur":7891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775129801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775129808, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775131238, "dur":6089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775137330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775137336, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775138803, "dur":17618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775156425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775156433, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775158775, "dur":13301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775172079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775172085, "dur":3115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775175245, "dur":22529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775197777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775197785, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775201047, "dur":8660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775209710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775209717, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775211353, "dur":7351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775218708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775218717, "dur":3263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775222027, "dur":8733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775230765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775230773, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775232112, "dur":21632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775253748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775253756, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775255548, "dur":78513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775334087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775334096, "dur":3500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775337641, "dur":7502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775345147, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775345157, "dur":3663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775348867, "dur":11861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775360733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775360742, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775362271, "dur":8318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775370592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775370600, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775371988, "dur":8533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775380525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775380544, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775382174, "dur":21887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775404065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775404073, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775406579, "dur":12074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775418657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775418665, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775420023, "dur":10416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775430442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775430449, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674321775431662, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1674321775431705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775431748, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1674321775433118, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1674321775433162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775433186, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1674321775434209, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1674321775434252, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775434257, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1674321775436283, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1674321775436337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775436344, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1674321775437436, "dur":4035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1674321775441557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775441566, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1674321775442849, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1674321775442894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775442899, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1674321775444374, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1674321775444420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775444425, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1674321775445933, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1674321775445980, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674321775445985, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/burak/OneDrive/Masast/Unity Builds/Roller Madness_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1674321775447199, "dur":10871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674321775462623, "dur":1950, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1674321775486229, "dur": 3371, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674321775485688, "dur": 3954, "ph": "X", "name": "Write chrome-trace events", "args": {} },

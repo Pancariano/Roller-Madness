@@ -114,6 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyFollowSpeed: 2
   stopDistance: 1
+  deadEffect: {fileID: 5657730322639758095, guid: ab7c30bf0c7ba4a4dbfa7571dfb48a87, type: 3}
 --- !u!54 &2080402817
 Rigidbody:
   m_ObjectHideFlags: 0

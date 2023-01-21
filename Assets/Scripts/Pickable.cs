@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pickable : MonoBehaviour
 {
     public int scoreAmount = 2;
+    [SerializeField] private GameObject deadEffect;
 
     private void OnTriggerEnter(Collider other) // fiziksel temas yok isTrigger açık
     {
@@ -23,5 +24,10 @@ public class Pickable : MonoBehaviour
             scoreManager.score += scoreAmount;
             Destroy(gameObject);
         }
+    }
+
+    private void OnDisable()
+    {
+        Instantiate(deadEffect,transform.position,transform.rotation);
     }
 }
